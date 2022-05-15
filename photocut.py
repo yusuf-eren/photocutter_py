@@ -8,7 +8,9 @@ def photocutter(img):
 
     # height, width, number of channels in image
     height, width, channels = img1.shape
-
+    
+    #It takes the dimensions of every single photo.
+    #So it is compatible with all dimensions.
     height1 = (height*0)/6
     height2 = (height*2)/6
     height3 = (height*4)/6
@@ -19,6 +21,7 @@ def photocutter(img):
     width3 = (width*4)/6
     width4 = (width*6)/6
 
+    #cropping image into pieces.
     cropped_image1 = img1[int(height1):int(height2), int(width1):int(width2)]
     cropped_image2 = img1[int(height2):int(height3), int(width1):int(width2)]
     cropped_image3 = img1[int(height3):int(height4), int(width1):int(width2)]
