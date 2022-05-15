@@ -12,6 +12,8 @@ And one of my customer had 1 photo on all listings.
 
 So i decided to make this tool to make a better SEO.
 
+It splits photo to view details of the product.
+
 ## Usage
 
 ### Requirements
